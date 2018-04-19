@@ -21,12 +21,12 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 .navbar, .home-callout {
-  // gradient provided by @ @_ighosh at uiGradients.com
+  /*vgradient provided by @ @_ighosh at uiGradients.com */
   background: #a8c0ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(left, #3f2b96, #a8c0ff);
+  background: -webkit-linear-gradient(left, #3f2b96, #a8c0ff); /* Chrome 10-25, Safari 5.1-6 */ 
   background: -moz-linear-gradient(left, #3f2b96, #a8c0ff);
   background: -o-linear-gradient(left, #3f2b96, #a8c0ff);
-  background: linear-gradient(to right, #3f2b96, #a8c0ff);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #3f2b96, #a8c0ff);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .navbar {
   border: none;
@@ -37,4 +37,20 @@ h1, h2, h3 {
   padding-top: 50px;
   padding-bottom: 100px;
   color: white;
+}
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: white;
+  opacity: 0.75;
+}
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  opacity: 0.75;
 }
